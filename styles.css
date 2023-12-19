@@ -152,22 +152,79 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: var(--soft-white);
 }
 #footer-menu {
-    padding: 2% 5% 0 5%;
+    padding: 0 5% 0.5% 5%;
     background: var(--blue-gradient);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 4fr 1fr;
-    gap: 25px;
+    column-gap: 5vw;
 }
 #footer-contact {
-
+    display: flex;
+    flex-direction: column;
+}
+#footer-contact div {
+    display: flex;
+    column-gap: 5%;
+    &:not(:last-child)  {
+        margin-bottom: 5%;
+    }
+}
+#footer-contact svg {
+    color: var(--yellow);
+    align-self: center;
+    height: 20px;
+    width: 20px;
 }
 .footer-menu {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 5%; 
+    padding-top: 5%;
+    place-self: stretch center;
+}
+.footer-menu h2 {
+    color: var(--yellow);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.footer-menu ul {
+    list-style: none;
+    line-height: 1.7rem;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: var(--soft-white);
+}
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+#social-icons {
+    place-self: end start;
+    width: 100%;
+}
+#social-icons a {
+    text-decoration: none;
+    &:not(:last-child)  {
+        margin-right: 5%;
+    }
+}
+#social-icons svg {
+    width: 35px;
+    height: auto;
+    color: var(--light-blue);
 }
 #copyright {
     grid-column: 2 / span 2;
-    text-align: center;
+    place-self: end center;
+}
+#footer-menu .britain-logo {
+    place-self: end end;
+}
+.britain-logo img {
+    width: 200px;
+    border-radius: 5px;
 }
