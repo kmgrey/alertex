@@ -1,0 +1,20 @@
+.product-text {
+    row-gap: 25px;
+}
+.download-buttons {
+    justify-content: flex-start;
+    column-gap: 25px;
+}
+.download-buttons svg {
+    width: 25px;
+    height: 25px;
+}
+.key-features {
+    list-style: none;
+}
+.key-features li {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    line-height: 1.5rem;
+}
