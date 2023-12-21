@@ -1,5 +1,13 @@
+.product-divider {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--light-grey);
+    width: 60%;
+    margin: auto;
+}
 .product-text {
     row-gap: 25px;
+    color: var(--dark-blue);
 }
 .download-buttons {
     justify-content: flex-start;
@@ -17,4 +25,32 @@
     align-items: center;
     column-gap: 10px;
     line-height: 1.5rem;
+}
+.part-table th {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+.part-table td {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+/* P R O D U C T  I M A G E  C A R O U S E L */
+.extra-images {
+    width: 150px;
+    height: 150px;
+}
+.extra-images:hover {
+    box-shadow: 1px 2px 8px var(--dark-blue-opacity);
+    background-color: rgb(219, 235, 248);
+    transition: 0.3s ease-in-out;
+}
+.image-dots {
+    margin: auto;
+}
+.image-dots svg {
+    width: 35px;
+    height: 35px;
+    color: var(--light-blue);
 }

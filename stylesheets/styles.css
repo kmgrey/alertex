@@ -96,7 +96,7 @@ a {
     justify-content: center;
     margin: auto;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1600px;
     gap: 4%;
 }
 .inner-container {
@@ -106,6 +106,7 @@ a {
 }
 .image-container {
     width: 100%;
+    display: flex;
 }
 .image-container img {
     object-fit: contain;
@@ -123,7 +124,7 @@ a {
     flex-direction: column;
     flex-basis: 30%;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 450px;
     margin: 1.5%;
     padding: 20px;
     gap: 20px;
@@ -132,12 +133,12 @@ a {
 }
 .card:hover {
     box-shadow: 1px 2px 8px var(--dark-blue-opacity);
-    color: var(--light-blue);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
 }
 .card:hover .card-heading {
     padding-left: 15px;
-    transition: 0.3s ease-in-out;
+    color: var(--light-blue);
+    transition: 0.3s ease-in;
 }
 .card:active {
     box-shadow: none;
@@ -244,7 +245,7 @@ nav a {
 }
 #newsletter::before {
     content: "";
-    background-image: url(grey-triangles.svg);
+    background-image: url(../grey-triangles.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;

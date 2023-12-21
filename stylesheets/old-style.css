@@ -229,7 +229,7 @@ header .britain-logo {
 }
 #system-hero::before {
     content: "";
-    background-image: url("isometric-school.png");
+    background-image: url("../isometric-school.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -375,7 +375,7 @@ header .britain-logo {
 }
 #newsletter::before {
     content: "";
-    background-image: url(grey-triangles.svg);
+    background-image: url(../grey-triangles.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
