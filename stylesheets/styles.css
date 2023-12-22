@@ -85,7 +85,6 @@ a {
 }
 .top-hero .inner-container {
     justify-content: center;
-    padding-left: 50px;
 }
 /* C O N T A I N E R S */
 .section {
@@ -281,7 +280,9 @@ input[type=email] {
     width: 100%;
 }
 input[type=text],
-input[type=email] {
+input[type=email],
+input[type=number],
+textarea {
     height: 45px;
     border: 3px solid var(--light-grey);
     padding-left: 10px;
