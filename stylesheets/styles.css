@@ -193,7 +193,7 @@ a {
 nav {
     background: var(--blue-gradient);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
@@ -220,8 +220,11 @@ nav a {
 #right-nav,
 #center-nav {
     display: flex;
-    width: 33%;
     justify-content: space-evenly;
+}
+#left-nav,
+#right-nav {
+    width: 35%;
 }
 .alertex-logo {
     background-color: var(--soft-white);

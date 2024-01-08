@@ -1,0 +1,12 @@
+.installer-info {
+    gap: 20px;
+}
+.installer-info p {
+    margin-bottom: 0;
+}
+.installer-info span {
+    font-weight: 600;
+}
+.installer-info ul {
+    list-style: none;
+}
