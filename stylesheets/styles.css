@@ -26,7 +26,8 @@ a {
         font-size: 1.2rem;
         font-weight: 600;
     }
-    p { font-size: 1rem; }
+    p,
+    p span { font-size: 0.8rem; }
     h1 { font-size: 3rem; }
     h2 { font-size: 1.8rem; }
     h3 { font-size: 1.2rem; }
@@ -36,7 +37,8 @@ a {
         font-size: 1.5rem;
         font-weight: 600;
     }
-    p { 
+    p,
+    p span { 
         font-size: 1rem;
         &:not(:last-child) {
             margin-bottom: 1.25rem;
@@ -50,6 +52,7 @@ a {
 .top-hero {
     display: flex;
     position: relative;
+    color: var(--dark-blue);
 }
 .top-hero:before {
     content: "";
@@ -116,6 +119,11 @@ a {
 }
 .flex-wrap {
     flex-wrap: wrap;
+}
+.divider {
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 /* C A R D S */
 .card {
