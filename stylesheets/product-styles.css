@@ -36,7 +36,17 @@
     font-size: 0.9rem;
     line-height: 1.4rem;
 }
+/*                                          *\
+    C O N T A I N E R  A D J U S T M E N T
+\*                                          */
+@media only screen and (max-width: 550px) {}
+@media only screen and (min-width: 551px) and (max-width: 1058px) {}
+@media only screen and (min-width: 1059px) {}
+
 /* P R O D U C T  I M A G E  C A R O U S E L */
+.container:has(.extra-images) {
+    justify-content: space-evenly;
+}
 .extra-images {
     width: 150px;
     height: 150px;
@@ -45,12 +55,4 @@
     box-shadow: 1px 2px 8px var(--dark-blue-opacity);
     background-color: rgb(219, 235, 248);
     transition: 0.3s ease-in-out;
-}
-.image-dots {
-    margin: auto;
-}
-.image-dots svg {
-    width: 35px;
-    height: 35px;
-    color: var(--light-blue);
 }
