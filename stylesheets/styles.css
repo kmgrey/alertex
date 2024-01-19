@@ -115,10 +115,10 @@ a {
 }
 .top-hero:before {
     content: "";
-    background-image: url("../network-vector.png");
+    background-image: url("../images/bg-elements/network-vector.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
     position: absolute;
     top: 0;
     right: 0;
