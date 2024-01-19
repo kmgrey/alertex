@@ -84,12 +84,16 @@
             <div class="outer-container">
                 <!-- C O N T A C T  F O R M -->
                 <div class="container flex-j-center">
-                    <form id="contact-form">
+                    <form id="contact-form" action="https://formsubmit.co/kathryn@luminite.co.uk" method="POST">
                         <fieldset>
                             <input type="text" id="first-name" name="first-name" placeholder="First name*" required>
                             <input type="text" id="last-name" name="last-name"  placeholder="Last name*"required>
                             <input type="email" id="email" name="email" placeholder="Email address*" required>
                             <input type="text" id="company" name="company" placeholder="Company / School*" required>
+                            <input type="hidden" name="_subject" value="Alertex Contact Form">
+                            <!-- <input type="hidden" name="_captcha" value="false"> -->
+                            <!-- F I X  M E -->
+                            <input type="hidden" name="_next" value="https://kmgrey.github.io/alertex/">
                         </fieldset>
                         <fieldset>
                             <textarea name="message" rows="10" cols="50" placeholder="Your message...*" required></textarea>
