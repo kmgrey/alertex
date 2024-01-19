@@ -15,6 +15,7 @@
 }
 .contact-details svg {
     color: var(--light-blue);
+    height: auto;
 }
 #google-maps {
     width: 100%;
@@ -35,6 +36,9 @@
             margin-bottom: 0.6rem;
         } 
     }
+    .contact-details svg {
+        width: 16px;
+    }
     #google-maps {
         height: 300px;
     }
@@ -51,8 +55,29 @@
             margin-bottom: 0.8rem;
         } 
     }
+    .contact-details svg {
+        width: 20px;
+    }
     #google-maps {
         height: 350px;
     }
 }
-@media only screen and (min-width: 1059px) {} 
+@media only screen and (min-width: 1059px) {
+    .container:has(.opening-hours){
+        row-gap: 30px;
+    }
+    .opening-hours h2 {
+        margin-bottom: 15px;
+    }
+    :is(.contact-details) :is(.p-head) {
+        &:not(:last-child) {
+            margin-bottom: 0.8rem;
+        } 
+    }
+    .contact-details svg {
+        width: 22px;
+    }
+    #google-maps {
+        height: 400px;
+    }
+} 

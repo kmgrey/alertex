@@ -1,21 +1,9 @@
 .product-divider {
-    margin-bottom: 50px;
-    padding-bottom: 50px;
     border-bottom: 1px solid var(--light-grey);
-    width: 60%;
     margin: auto;
 }
 .product-text {
-    row-gap: 25px;
     color: var(--dark-blue);
-}
-.download-buttons {
-    justify-content: flex-start;
-    column-gap: 25px;
-}
-.download-buttons svg {
-    width: 25px;
-    height: 25px;
 }
 .key-features {
     list-style: none;
@@ -27,21 +15,113 @@
     line-height: 1.5rem;
 }
 .part-table th {
-    font-size: 1.1rem;
-    line-height: 2rem;
     text-align: left;
     text-transform: uppercase;
 }
-.part-table td {
-    font-size: 0.9rem;
-    line-height: 1.4rem;
+.download-buttons svg {
+    height: auto;
+}
+.product-video {
+    width: 100%;
 }
 /*                                          *\
     C O N T A I N E R  A D J U S T M E N T
 \*                                          */
-@media only screen and (max-width: 550px) {}
-@media only screen and (min-width: 551px) and (max-width: 1058px) {}
-@media only screen and (min-width: 1059px) {}
+@media only screen and (max-width: 550px) {
+    .outer-container:has(.product-text) {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .product-divider {
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+    }
+    .key-features li {
+        font-size: 0.8rem;
+    }
+    .product-text {
+        row-gap: 15px;
+    }
+    .product-image {
+        order: 2;
+    }
+    .download-buttons {
+        justify-content: space-between;
+    }
+    .download-buttons svg {
+        width: 20px;
+    }
+    .part-table th {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .part-table td {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .product-video {
+        min-height: 200px;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 1058px) {
+    .product-text {
+        row-gap: 25px;
+    }
+    .product-divider {
+        margin-bottom: 35px;
+        padding-bottom: 35px;
+    }
+    .key-features li {
+        font-size: 1rem;
+    }
+    .download-buttons {
+        justify-content: space-evenly;
+    }
+    .download-buttons svg {
+        width: 22px;
+    }
+    .part-table th {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .part-table td {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+    .product-video {
+        min-height: 300px;
+    }
+}
+@media only screen and (min-width: 1059px) {
+    .product-divider {
+        width: 60vw;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    .key-features li {
+        font-size: 1rem;
+    }
+    .product-text {
+        row-gap: 25px;
+    }
+    .download-buttons {
+        gap: 25px;
+    }
+    .download-buttons svg {
+        width: 25px;
+    }
+    .part-table th {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .part-table td {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+    .product-video {
+        min-height: 400px;
+    }
+}
 
 /* P R O D U C T  I M A G E  C A R O U S E L */
 .container:has(.extra-images) {

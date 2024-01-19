@@ -149,7 +149,6 @@ a {
     margin: auto;
     width: 100%;
     max-width: 1600px;
-    gap: 4%;
 }
 .container {
     display: flex;
@@ -188,10 +187,16 @@ a {
     .section {
         padding: 25px;
     }
+    .outer-container {
+        gap: 25px;
+    }
 }
 @media only screen and (min-width: 1059px) {
     .section {
         padding: 50px;
+    }
+    .outer-container {
+        gap: 40px;
     }
 }
 /*              *\
@@ -273,7 +278,7 @@ a {
         min-width: 175px;
         max-width: 200px;
         height: 40px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         border-radius: 6px;
     }
 }
