@@ -1,8 +1,7 @@
 #contact-form {
     width: 100%;
 }
-#contact-form input[type=email],
-#contact-form input[type=number] {
+#contact-form input[type=email] {
     width: 45%;
 }
 #contact-form textarea {
@@ -14,10 +13,46 @@
     line-height: 1.5rem;
     width: 300px;
 }
-#opening-hours {
-    row-gap: 2vh;
+.contact-details svg {
+    color: var(--light-blue);
 }
 #google-maps {
     width: 100%;
-    height: 450px;
 }
+@media only screen and (max-width: 550px) {
+    .outer-container:has(#contact-form) {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .container:has(.opening-hours){
+        row-gap: 25px;
+    }
+    .opening-hours h2 {
+        margin-bottom: 10px;
+    }
+    :is(.contact-details) :is(.p-head) {
+        &:not(:last-child) {
+            margin-bottom: 0.6rem;
+        } 
+    }
+    #google-maps {
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 1058px) {
+    .container:has(.opening-hours){
+        row-gap: 25px;
+    }
+    .opening-hours h2 {
+        margin-bottom: 10px;
+    }
+    :is(.contact-details) :is(.p-head) {
+        &:not(:last-child) {
+            margin-bottom: 0.8rem;
+        } 
+    }
+    #google-maps {
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 1059px) {} 
