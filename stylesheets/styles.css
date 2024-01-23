@@ -316,7 +316,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding: 5px 0;
     height: 10vh;
@@ -471,7 +471,7 @@ input::placeholder {
     F O O T E R
 \*              */
 footer {
-    width: 100vw;
+    width: 100%;
 }
 #footer {
     background: var(--blue-gradient);
