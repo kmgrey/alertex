@@ -109,13 +109,89 @@
         line-height: 2.5rem;
     }
 }
-
-
-
-
-
-/*section test*/
-/* .full-height {
-    height: 100vh;
-    background-color: white;
+/*                      *\
+    T E R M  T I M E S
+\*                      */
+#term-dates {
+    background: var(--blue-gradient);
+    color: var(--soft-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding: 50px;
+}
+:is(#term-dates) :is(.container) {
+    background-color: var(--soft-white);
+    color: var(--dark-blue);
+    border-radius: 15px;
+    width: 40%;
+    justify-content: center;
+    column-gap: 25px;
+    padding: 25px;
+}
+:is(#term-dates) :is(.container) :is(p) {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--light-blue);
+}
+:is(#term-dates) :is(table) {
+    min-width: 400px;
+    text-align: left;
+    line-height: 2rem;
+}
+/*                      *\
+    B L O G  C A R D S
+\*                      */
+#case-studies {
+    background: var(--blue-gradient);
+    color: var(--soft-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding: 50px;
+}
+#blog-carousel {
+    display: flex;
+    column-gap: 50px;
+}
+.blog-card {
+    background-color: var(--soft-white);
+    color: var(--dark-blue);
+    border: 3px solid var(--light-blue);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.blog-card p {
+    font-style: italic;
+}
+.blog-card:hover {
+    background-color: var(--light-blue);
+    color: var(--soft-white);
+    transition: 0.75s ease;
+    box-shadow: 5px 5px 10px var(--dark-blue);
+}
+/* .blog-card:not(:hover) {
+    background-color: var(--soft-white);
+    transition: 0.5s ease;
 } */
+.blog-card:active {
+    background-color: var(--soft-white);
+    transition: 0.25s ease-out;
+    border: 3px solid transparent;
+}
+:is(.blog-card) :is(.image-container) {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: black;
+}
+:is(.blog-card) :is(img) {
+    object-fit: cover;
+}

@@ -32,6 +32,7 @@ body {
     --dark-blue: rgb(8, 13, 37);
     --dark-blue-opacity: rgba(8, 13, 37, 0.5);
     --light-grey: rgb(207, 207, 207);
+    --med-grey: rgb(126, 126, 126);
     --blue-gradient: linear-gradient(135deg, rgba(8,13,37,1) 0%, rgba(16,55,95,1) 100%);
     --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 20%, rgba(26,110,170,0) 60%);
 }
@@ -319,6 +320,7 @@ nav {
     text-align: center;
     padding: 5px 0;
     height: 10vh;
+    min-height: 115px;
     /* max-height: 100%; */
 }
 nav a {
