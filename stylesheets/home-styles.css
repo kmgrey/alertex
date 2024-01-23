@@ -90,11 +90,23 @@
 }
 @media only screen and (min-width: 1059px) {
     :is(#home-hero) :is(.container) {
-        width: 50%;
+        width: 40%;
         row-gap: 50px;
     }
+    #home-hero-img {
+        max-height: 600px;
+    }
     #home-hero-text {
-        padding: 35px;
+        padding: 25px;
+        row-gap: 25px;
+    }
+    #home-hero-text h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    #home-hero-text .p-head {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
     }
 }
 
