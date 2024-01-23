@@ -356,7 +356,7 @@ nav a {
     height: 90%;
     width: auto;
 }
-@media (max-width: 1058px) {
+@media only screen and (max-width: 1058px) {
     nav {
         justify-content: space-around;
         gap: 0;
@@ -379,7 +379,7 @@ nav a {
         color: var(--soft-white);
     }
 }
-@media (max-width: 550px) {
+@media only screen and (max-width: 550px) {
     #center-nav,
     #burger-nav {
         justify-content: center;
@@ -410,7 +410,7 @@ nav a {
 }
 #newsletter::before {
     content: "";
-    background-image: url(../grey-triangles.svg);
+    background-image: url(../images/bg-elements/grey-triangles.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
