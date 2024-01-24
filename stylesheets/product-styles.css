@@ -118,6 +118,9 @@
         font-size: 0.9rem;
         line-height: 1.4rem;
     }
+    :is(.product-image) :is(.image-container) {
+        max-height: 450px;
+    }
     .product-video {
         min-height: 400px;
     }
