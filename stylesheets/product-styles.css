@@ -43,6 +43,9 @@
         row-gap: 15px;
     }
     .product-image {
+        order: 1;
+    }
+    .product-text {
         order: 2;
     }
     .download-buttons {
