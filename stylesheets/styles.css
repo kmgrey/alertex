@@ -60,7 +60,7 @@ a {
         line-height: 3.5rem;
     }
     h2 { font-size: 1.2rem; }
-    h3 { font-size: 1.2rem; }
+    h3 { font-size: 1rem; }
 }
 @media only screen and (min-width: 551px) and (max-width: 1058px) {
     .p-head {
@@ -82,7 +82,7 @@ a {
         line-height: 4rem;
     }
     h2 { font-size: 2rem; }
-    h3 { font-size: 1.5rem; }
+    h3 { font-size: 1.1rem; }
 }
 @media only screen and (min-width: 1059px) {
     .p-head {
@@ -320,6 +320,7 @@ nav {
 #right-nav,
 #center-nav {
     display: flex;
+    align-items: center;
 }
 #burger-nav {
     color: var(--soft-white);
@@ -356,8 +357,11 @@ nav {
 }
 @media only screen and (max-width: 550px) {
     nav {
-        height: 10vh;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 25px;
+        gap: 0;
+        height: 10vh;
     }
     #left-nav,
     #right-nav {
@@ -366,21 +370,18 @@ nav {
     #center-nav,
     #burger-nav {
         justify-content: center;
-        padding: 0 10px;
     }
-    #center-nav img {
-        width: 85%;
-        height: auto;
+    :is(#center-nav) :is(.image-container) {
+        height: 8vh;
     }
     #burger-nav svg {
-        width: 70px;
+        width: 90px;
         height: auto;
     }
-    .burger-popout {
+    #burger-popout {
         margin: 0 15px;
         padding: 15px;
-        right: 0;
-        left: 0;
+        right: 0px;
     }
     .burger-link a {
         font-size: 1.75rem;
@@ -389,11 +390,11 @@ nav {
 }
 @media only screen and (min-width: 551px) and (max-width: 1058px) {
     nav {
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 25px;
         gap: 0;
-        min-height: 125px;
-        height: 12vh;
+        height: 10vh;
     }
     #left-nav,
     #right-nav {
@@ -401,6 +402,9 @@ nav {
     }
     #center-nav {
         justify-content: flex-start;
+    }
+    :is(#center-nav) :is(.image-container) {
+        height: 8vh;
     }
     #burger-nav {
         display: flex;
@@ -425,15 +429,15 @@ nav {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 5px 0;
+        padding: 20px 0;
         height: 10vh;
-        min-height: 115px;
+        
     }
     nav a {
         color: var(--soft-white);
     }
     .nav-link {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -460,12 +464,11 @@ nav {
     #burger-nav {
         display: none;
     }
-    #center-nav img {
-        height: 90%;
-        width: auto;
-    }
     .burger-popout {
         display: none;
+    }
+    :is(#center-nav) :is(.image-container) {
+        height: 8vh;
     }
 }
 /*                      *\
@@ -597,10 +600,13 @@ footer {
     #footer-bottom {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 15px;
+        gap: 15px;
     }
     #footer-top {
         flex-direction: column;
+    }
+    .footer-contact {
+        margin-bottom: 20px;
     }
     #footer-bottom {
         flex-direction: row;
