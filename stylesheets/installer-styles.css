@@ -46,9 +46,13 @@
 .installer-logo a {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 .installer-logo img {
     width: 75%;
+}
+:is(.installer-logo) :is(.small-logo) {
+    max-width: 350px;
 }
 hr {
     border: 0.75px solid var(--light-grey);
