@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="script.js"></script> 
+    <script src="./scripts/script.js"></script> 
 </head>
 <body>
     <!-- L E V E L  1  H E A D E R -->
     <header id="global-header-1">
+        <!-- N A V B A R -->
         <nav>
             <div id="left-nav">
                 <a class="nav-link" href="./products.html">Products</a>
@@ -25,16 +26,31 @@
                     </div>
                 </a>
             </div>
+            <div id="right-nav">
+                <a class="nav-link" href="./faq.html">FAQ</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+            </div>
             <div id="burger-nav">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                 </svg>
             </div>
-            <div id="right-nav">
-                <a class="nav-link" href="./faq.html">FAQ</a>
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-            </div>
         </nav>
+        <!-- B U R G E R  P O P O U T -->
+        <div id="burger-popout">
+            <div class="burger-link">
+                <a href="./products.html">Products</a>
+            </div>
+            <div class="burger-link">
+                <a href="./approved-installers.html">Approved Installers</a>
+            </div>
+            <div class="burger-link">
+                <a href="./faq.html">FAQ</a>
+            </div>
+            <div class="burger-link">
+                <a href="./contact.html">Contact Us</a>
+            </div>
+        </div>
     </header>
     <main>
         <!-- T O P  H E R O -->
@@ -84,7 +100,7 @@
         <section class="section">
             <div class="outer-container flex-wrap">
                 <!-- S O U N D E R S  &  B E A C O N S -->
-                <a href="./products/sounders-and-beacons.html">
+                <a href="./sounders-and-beacons.html">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/sounder-beacons.png" alt="Alertex sounders and beacons">
@@ -99,7 +115,7 @@
                     </div>
                 </a>
                 <!-- V O I C E  A N N U N C I A T O R S -->
-                <a href="./products/voice-annunciators.html">
+                <a href="./voice-annunciators.html">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/voice-annunciator.png" alt="Alertex voice annunciator">
@@ -114,7 +130,7 @@
                     </div>
                 </a>
                 <!-- C A L L  P O I N T S -->
-                <a href="./products/call-points.html">
+                <a href="./call-points.html">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/call-points.png" alt="Alertex call-points">
@@ -129,7 +145,7 @@
                     </div>
                 </a>
                 <!-- K E Y  F O B -->
-                <a href="./products/key-fob.html">
+                <a href="./key-fob.html">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/key-fob.png" alt="Alertex key fob">
@@ -161,7 +177,7 @@
                 </a>
                 -->
                 <!-- I P  B R I D G E -->
-                <a href="./products/ip-bridge.html">
+                <a href="./ip-bridge.html">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/nxipbridge.png" alt="Alertex IP bridge">
@@ -187,15 +203,19 @@
                 Stay up to date with the latest Alertex updates, news, and 
                 legislations relating to Lockdown systems
             </div>
-            <form>
+            <form id="newsletter-form" action="https://formsubmit.co/info@luminite.co.uk" method="POST">
                 <fieldset>
                     <input type="text" id="first-name" name="first-name" placeholder="First name*" required>
                     <input type="text" id="last-name" name="last-name"  placeholder="Last name*"required>
                     <input type="email" id="email" name="email" placeholder="Email address*" required>
+                    <input type="text" id="company" name="company" placeholder="Company / School*" required>
+                    <input type="hidden" name="_subject" value="Alertex Newsletter Signup">
+                    <input type="hidden" name="_next" value="https://alertex.co.uk/">
+                    <input type="hidden" name="_captcha" value="false">
                 </fieldset>
                 <input type="submit" class="blue-button" value="subscribe"> 
             </form>
-            <div>By subscribing you agree to our <a href="">Terms and Conditions</a></div>
+            <div>By subscribing you agree to our <a href="./terms-and-conditions.html">Terms and Conditions</a></div>
         </div>
         <!-- F O O T E R -->
         <div id="footer">
@@ -230,19 +250,19 @@
                 <div class="footer-menu">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="">Terms & Conditions</a></li>
-                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="./terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="./privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-menu">
                     <h2>Products</h2>
                     <ul>
-                        <li><a href="./products/sounders-and-beacons.html">Sounders & Beacons</a></li>
-                        <li><a href="./products/voice-annunciators.html">Voice Annunciators</a></li>
-                        <li><a href="./products/ip-bridge.html">IP Bridge</a></li>
-                        <li><a href="./products/call-points.html">Call-points</a></li>
-                        <li><a href="./products/key-fob.html">Key Fob</a></li>
-                        <li><a href="./products/heat-and-smoke.html">Heat & Smoke Detectors</a></li>
+                        <li><a href="./sounders-and-beacons.html">Sounders & Beacons</a></li>
+                        <li><a href="./voice-annunciators.html">Voice Annunciators</a></li>
+                        <li><a href="./ip-bridge.html">IP Bridge</a></li>
+                        <li><a href="./call-points.html">Call-points</a></li>
+                        <li><a href="./key-fob.html">Key Fob</a></li>
+                        <li><a href="./heat-and-smoke.html">Heat & Smoke Detectors</a></li>
                     </ul>
                 </div>
                 <div class="footer-menu">
@@ -279,11 +299,11 @@
                 <div class="copyright">
                     Copyright &copy Luminite Electronics Ltd. 2024
                 </div>
-                <!-- <a class="image-container" href="">
-                    <img src="./images/logos/britain-logo-temp.jpg" alt="Made in Britain logo">
-                </a> -->
+                <div class="image-container">
+                    <img src="./images/logos/britain-badge.png" alt="Made in Britain badge">
+                </div>
             </div>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>
