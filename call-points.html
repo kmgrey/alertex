@@ -280,8 +280,8 @@
             </div>
         </section>
     </main>
-    <!-- L E V E L  2  F O O T E R -->
-    <footer id="global-footer-2">
+    <!-- L E V E L  1  F O O T E R -->
+    <footer id="global-footer-1">
         <!-- N E W S L E T T E R -->
         <div id="newsletter">
             <h2>Subscribe to our Newsletter</h2>
@@ -289,22 +289,26 @@
                 Stay up to date with the latest Alertex updates, news, and 
                 legislations relating to Lockdown systems
             </div>
-            <form>
+            <form id="newsletter-form" action="https://formsubmit.co/info@luminite.co.uk" method="POST">
                 <fieldset>
                     <input type="text" id="first-name" name="first-name" placeholder="First name*" required>
                     <input type="text" id="last-name" name="last-name"  placeholder="Last name*"required>
                     <input type="email" id="email" name="email" placeholder="Email address*" required>
+                    <input type="text" id="company" name="company" placeholder="Company / School*" required>
+                    <input type="hidden" name="_subject" value="Alertex Newsletter Signup">
+                    <input type="hidden" name="_next" value="https://alertex.co.uk/">
+                    <input type="hidden" name="_captcha" value="false">
                 </fieldset>
                 <input type="submit" class="blue-button" value="subscribe"> 
             </form>
-            <div>By subscribing you agree to our <a href="">Terms and Conditions</a></div>
+            <div>By subscribing you agree to our <a href="./terms-and-conditions.html">Terms and Conditions</a></div>
         </div>
         <!-- F O O T E R -->
         <div id="footer">
             <div id="footer-top">
                 <div class="footer-contact">
                     <div class="image-container">
-                        <img src="../images/logos/alertex-logo.png" alt="Alertex Wireless Critical Alert System logo">
+                        <img src="./images/logos/alertex-logo.png" alt="Alertex Wireless Critical Alert System logo">
                     </div>
                     <div class="contact-info">
                         <div>
@@ -332,26 +336,26 @@
                 <div class="footer-menu">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="">Terms & Conditions</a></li>
-                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="./terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="./privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-menu">
                     <h2>Products</h2>
                     <ul>
-                        <li><a href="../products/sounders-and-beacons.html">Sounders & Beacons</a></li>
-                        <li><a href="../products/voice-annunciators.html">Voice Annunciators</a></li>
-                        <li><a href="../products/ip-bridge.html">IP Bridge</a></li>
-                        <li><a href="../products/call-points.html">Call-points</a></li>
-                        <li><a href="../products/key-fob.html">Key Fob</a></li>
-                        <li><a href="../products/heat-and-smoke.html">Heat & Smoke Detectors</a></li>
+                        <li><a href="./sounders-and-beacons.html">Sounders & Beacons</a></li>
+                        <li><a href="./voice-annunciators.html">Voice Annunciators</a></li>
+                        <li><a href="./ip-bridge.html">IP Bridge</a></li>
+                        <li><a href="./call-points.html">Call-points</a></li>
+                        <li><a href="./key-fob.html">Key Fob</a></li>
+                        <li><a href="./heat-and-smoke.html">Heat & Smoke Detectors</a></li>
                     </ul>
                 </div>
                 <div class="footer-menu">
                     <h2>Support</h2>
                     <ul>
-                        <li><a href="../faq.html">FAQ</a></li>
-                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -381,9 +385,9 @@
                 <div class="copyright">
                     Copyright &copy Luminite Electronics Ltd. 2024
                 </div>
-                <!-- <a class="image-container" href="">
-                    <img src="../images/logos/britain-logo-temp.jpg" alt="Made in Britain logo">
-                </a> -->
+                <div class="image-container">
+                    <img src="./images/logos/britain-badge.png" alt="Made in Britain badge">
+                </div>
             </div>
         </div>
     </footer> 
