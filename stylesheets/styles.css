@@ -169,14 +169,23 @@ a {
     object-fit: contain;
     width: 100%;
 }
-.flex-j-center {
+.justify-content-center {
     justify-content: center;
+}
+.align-items-center {
+    align-items: center;
 }
 .flex-column {
     flex-direction: column;
 }
 .flex-wrap {
     flex-wrap: wrap;
+}
+.margin-auto {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
 }
 .divider {
     border-bottom: 1px solid var(--light-grey);
