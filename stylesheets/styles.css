@@ -36,15 +36,15 @@ body {
     --blue-gradient: linear-gradient(135deg, rgba(8,13,37,1) 0%, rgba(16,55,95,1) 100%);
     --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 20%, rgba(26,110,170,0) 60%);
 }
-/*                          *\
-    L I N K  S T Y L I N G 
-\*                          */
-a {
-    text-decoration: none;
-}
 /*                                  *\
-    R E S P O N S I V E  F O N T S 
+    F O N T S 
 \*                                  */
+p, h1, h2, h3, h4, li, a {
+    color: var(--dark-blue);
+}
+.white-text {
+    color: var(--soft-white);
+}
 @media only screen and (max-width: 550px) {
     .p-head {
         font-size: 1rem;
@@ -316,6 +316,25 @@ a {
         font-size: 1.2rem;
         border-radius: 10px;
     }
+}
+/*             *\
+    L I S T S
+\*             */
+.list-indent {
+    padding-left: 50px;
+}
+.list-indent li {
+    padding-left: 10px;
+}
+/*              *\
+    L I N K S
+\*              */
+a {
+    text-decoration: none;
+}
+.p-link {
+    color: var(--light-blue);
+    font-weight: 700;
 }
 /*              *\
     H E A D E R

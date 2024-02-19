@@ -1,5 +1,5 @@
-    <!-- L E V E L  1  F O O T E R -->
-    <footer id="global-footer-1">
+<!-- L E V E L  1  F O O T E R -->
+<footer id="global-footer-1">
     <!-- N E W S L E T T E R -->
     <div id="newsletter">
         <h2>Subscribe to our Newsletter</h2>
@@ -109,4 +109,4 @@
             </div>
         </div>
     </div>
-    </footer> 
+</footer> 
