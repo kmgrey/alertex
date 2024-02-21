@@ -81,7 +81,7 @@
                             <input type="hidden" name="_subject" value="Alertex Contact Form">
                             <!-- <input type="hidden" name="_captcha" value="false"> -->
                             <!-- F I X  M E -->
-                            <input type="hidden" name="_next" value="https://alertex.co.uk/contact.html/">
+                            <input type="hidden" name="_next" value="https://alertex.co.uk/contact.php/">
                         </fieldset>
                         <fieldset>
                             <textarea name="message" rows="10" cols="50" placeholder="Your message...*" required></textarea>

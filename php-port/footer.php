@@ -19,14 +19,14 @@
             </fieldset>
             <input type="submit" class="blue-button" value="subscribe"> 
         </form>
-        <div>By subscribing you agree to our <a href="./terms-and-conditions.html">Terms and Conditions</a></div>
+        <div>By subscribing you agree to our <a href="./terms-and-conditions.php">Terms and Conditions</a></div>
     </div>
     <!-- F O O T E R -->
     <div id="footer">
         <div id="footer-top">
             <div class="footer-contact">
                 <div class="image-container">
-                    <a href="./index.html"><img src="./images/logos/alertex-logo.png" alt="Alertex Wireless Critical Alert System logo"></a>
+                    <a href="./index.php"><img src="./images/logos/alertex-logo.png" alt="Alertex Wireless Critical Alert System logo"></a>
                 </div>
                 <div class="contact-info">
                     <div>
@@ -54,27 +54,27 @@
             <div class="footer-menu">
                 <h2>Company</h2>
                 <ul>
-                    <li><a href="./terms-and-conditions.html">Terms & Conditions</a></li>
-                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="./terms-of-use.html">Terms of Use</a></li>
+                    <li><a href="./terms-and-conditions.php">Terms & Conditions</a></li>
+                    <li><a href="./privacy-policy.php">Privacy Policy</a></li>
+                    <li><a href="./terms-of-use.php">Terms of Use</a></li>
                 </ul>
             </div>
             <div class="footer-menu">
                 <h2>Products</h2>
                 <ul>
-                    <li><a href="./sounders-and-beacons.html">Sounders & Beacons</a></li>
-                    <li><a href="./voice-annunciators.html">Voice Annunciators</a></li>
-                    <li><a href="./ip-bridge.html">IP Bridge</a></li>
-                    <li><a href="./call-points.html">Call-points</a></li>
-                    <li><a href="./key-fob.html">Key Fob</a></li>
-                    <li><a href="./heat-and-smoke.html">Heat & Smoke Detectors</a></li>
+                    <li><a href="./sounders-and-beacons.php">Sounders & Beacons</a></li>
+                    <li><a href="./voice-annunciators.php">Voice Annunciators</a></li>
+                    <li><a href="./ip-bridge.php">IP Bridge</a></li>
+                    <li><a href="./call-points.php">Call-points</a></li>
+                    <li><a href="./key-fob.php">Key Fob</a></li>
+                    <li><a href="./heat-and-smoke.php">Heat & Smoke Detectors</a></li>
                 </ul>
             </div>
             <div class="footer-menu">
                 <h2>Support</h2>
                 <ul>
-                    <li><a href="./faq.html">FAQ</a></li>
-                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="./faq.php">FAQ</a></li>
+                    <li><a href="./contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>

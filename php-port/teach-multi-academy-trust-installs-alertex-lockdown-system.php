@@ -84,7 +84,7 @@
                 <div class="container flex-column sidebar">
                     <h2>Recent Posts</h2>
                     <div class="container posts">
-                        <a href="./alertex-lockdown-system-installed-at-discovery-school.html">
+                        <a href="./alertex-lockdown-system-installed-at-discovery-school.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/discovery-primary.jpg" alt="Discovery Primary School">
@@ -93,7 +93,7 @@
                                 <p>26/01/2024</p>
                             </div>
                         </a>
-                        <a href="./alertex-lockdown-system-installed-at-ada-college.html">
+                        <a href="./alertex-lockdown-system-installed-at-ada-college.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/ada-college.jpg" alt="ADA College">
@@ -102,7 +102,7 @@
                                 <p>22/01/2024</p>
                             </div>
                         </a>
-                        <a href="./alertex-school-lockdown-system-installed-at-piggott-school.html">
+                        <a href="./alertex-school-lockdown-system-installed-at-piggott-school.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/piggott-school.jpg" alt="Piggott school">
@@ -111,7 +111,7 @@
                                 <p>15/08/2023</p>
                             </div>
                         </a>
-                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.html">
+                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/bluecoat-academy.jpg" alt="Bluecoat academy">

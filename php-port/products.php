@@ -72,7 +72,7 @@
         <section class="section">
             <div class="outer-container flex-wrap">
                 <!-- S O U N D E R S  &  B E A C O N S -->
-                <a href="./sounders-and-beacons.html">
+                <a href="./sounders-and-beacons.php">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/sounder-beacons.png" alt="Alertex sounders and beacons">
@@ -87,7 +87,7 @@
                     </div>
                 </a>
                 <!-- V O I C E  A N N U N C I A T O R S -->
-                <a href="./voice-annunciators.html">
+                <a href="./voice-annunciators.php">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/voice-annunciator.png" alt="Alertex voice annunciator">
@@ -102,7 +102,7 @@
                     </div>
                 </a>
                 <!-- C A L L  P O I N T S -->
-                <a href="./call-points.html">
+                <a href="./call-points.php">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/call-points.png" alt="Alertex call-points">
@@ -117,7 +117,7 @@
                     </div>
                 </a>
                 <!-- K E Y  F O B -->
-                <a href="./key-fob.html">
+                <a href="./key-fob.php">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/key-fob.png" alt="Alertex key fob">
@@ -149,7 +149,7 @@
                 </a>
                 -->
                 <!-- I P  B R I D G E -->
-                <a href="./ip-bridge.html">
+                <a href="./ip-bridge.php">
                     <div class="card">
                         <div class="image-container blue-border">
                             <img src="./images/product-photos/nxipbridge.png" alt="Alertex IP bridge">

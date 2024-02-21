@@ -45,7 +45,7 @@
                                 in Spring 2023 by <a class="post-link" href="https://triplestarfireandsecurity.com/index.html" target="_blank">Triple 
                                 Star Fire and Security</a> who had been tasked to provide an effective lockdown alert system in the event of an 
                                 emergency incident.  The college particularly wanted the ability to announce a warning rather than using a sounder 
-                                alert and opted for <a class="post-link" href="./voice-annunciators.html" target="_blank">Alertex annunciators 
+                                alert and opted for <a class="post-link" href="./voice-annunciators.php" target="_blank">Alertex annunciators 
                                 (NXVS)</a>. The college required the ability to choose between two key messages in response to an event requiring 
                                 lockdown or an event requiring evacuation that was not fire related. Luminite worked with Triple Star Fire & Security 
                                 and sent one of their technical engineers to help and advise on equipment required during the initial site survey. 
@@ -67,11 +67,11 @@
                         </div>
                         <p>
                             The annunciators are fitted with flashing strobe lights which automatically turn on when the system is activated. 
-                            Activation is by way of the <a class="post-link" href="./ip-bridge.html" target="_blank">Alertex IP Bridge</a> 
-                            portal or via <a class="post-link" href="./call-points.html" target="_blank">call points</a> which were 
+                            Activation is by way of the <a class="post-link" href="./ip-bridge.php" target="_blank">Alertex IP Bridge</a> 
+                            portal or via <a class="post-link" href="./call-points.php" target="_blank">call points</a> which were 
                             strategically placed around the building. The Bridge allows the college to control and monitor devices from one central 
                             location and to change messages depending on the event. The college also wanted to be able to activate annunciators 
-                            from <a class="post-link" href="./key-fob.html" target="_blank">hand-held fobs</a> which were allocated to key staff. 
+                            from <a class="post-link" href="./key-fob.php" target="_blank">hand-held fobs</a> which were allocated to key staff. 
                             A total of 61 annunciators were supplied and as part of the Luminite service, all units were pre-programmed and the decibel level set.
                         </p>
                     </div>
@@ -97,7 +97,7 @@
                 <div class="container flex-column sidebar">
                     <h2>Recent Posts</h2>
                     <div class="container posts">
-                        <a href="./alertex-lockdown-system-installed-at-discovery-school.html">
+                        <a href="./alertex-lockdown-system-installed-at-discovery-school.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/discovery-primary.jpg" alt="Discovery Primary School">
@@ -106,7 +106,7 @@
                                 <p>26/01/2024</p>
                             </div>
                         </a>
-                        <a href="./alertex-school-lockdown-system-installed-at-piggott-school.html">
+                        <a href="./alertex-school-lockdown-system-installed-at-piggott-school.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/piggott-school.jpg" alt="Piggott school">
@@ -115,7 +115,7 @@
                                 <p>15/08/2023</p>
                             </div>
                         </a>
-                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.html">
+                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/bluecoat-academy.jpg" alt="Bluecoat academy">
@@ -124,7 +124,7 @@
                                 <p>20/07/2023</p>
                             </div>
                         </a>
-                        <a href="./teach-multi-academy-trust-installs-alertex-lockdown-system.html">
+                        <a href="./teach-multi-academy-trust-installs-alertex-lockdown-system.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/teach-trust.jpg" alt="TEACH trust">

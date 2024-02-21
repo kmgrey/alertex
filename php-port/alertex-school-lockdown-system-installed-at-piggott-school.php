@@ -43,8 +43,8 @@
                                 Luminite were contacted in the Spring of 2021 by the School’s Finance Officer to provide an effective lockdown alert 
                                 system for the site including outdoor areas around the school’s football pitch. They were looking for a simple solution 
                                 that they could install themselves and contacted Luminite for help and advice. In June 2021 Piggott School ordered 34 
-                                Alertex devices including <a class="post-link" href="./sounders-and-beacons.html" target="_blank">combined 
-                                sounder/beacons</a> with built in call points as well as <a class="post-link" href="./call-points.html" 
+                                Alertex devices including <a class="post-link" href="./sounders-and-beacons.php" target="_blank">combined 
+                                sounder/beacons</a> with built in call points as well as <a class="post-link" href="./call-points.php" 
                                 target="_blank">call points only</a> and sounder/beacons only. External devices were also ordered for outdoor areas. 
                                 The School were also supplied with an IP Bridge which allows units to be controlled and monitored from one central location. 
                             </p>
@@ -73,7 +73,7 @@
                         <div>
                             <p>
                                 “The monitoring is easy to set up and the batteries last an extremely long time for a wireless system. The 
-                                <a class="post-link" href="./ip-bridge.html" target="_blank">IP Bridge</a> is key to its success in my opinion, with 
+                                <a class="post-link" href="./ip-bridge.php" target="_blank">IP Bridge</a> is key to its success in my opinion, with 
                                 its battery monitoring, email alerts for the alarm activation location or tampering/faults etc it makes it 
                                 largely a hands off system for us whilst retaining peace of mind. We are also looking to add this to our 
                                 primary school as well in the coming year.”
@@ -87,7 +87,7 @@
                 <div class="container flex-column sidebar">
                     <h2>Recent Posts</h2>
                     <div class="container posts">
-                        <a href="./alertex-lockdown-system-installed-at-discovery-school.html">
+                        <a href="./alertex-lockdown-system-installed-at-discovery-school.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/discovery-primary.jpg" alt="Discovery Primary School">
@@ -96,7 +96,7 @@
                                 <p>26/01/2024</p>
                             </div>
                         </a>
-                        <a href="./alertex-lockdown-system-installed-at-ada-college.html">
+                        <a href="./alertex-lockdown-system-installed-at-ada-college.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/ada-college.jpg" alt="ADA College">
@@ -105,7 +105,7 @@
                                 <p>22/01/2024</p>
                             </div>
                         </a>
-                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.html">
+                        <a href="./alertex-school-lockdown-system-installed-at-archway-learning-trust.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/bluecoat-academy.jpg" alt="Bluecoat academy">
@@ -114,7 +114,7 @@
                                 <p>20/07/2023</p>
                             </div>
                         </a>
-                        <a href="./teach-multi-academy-trust-installs-alertex-lockdown-system.html">
+                        <a href="./teach-multi-academy-trust-installs-alertex-lockdown-system.php">
                             <div class="sidebar-card">
                                 <div class="image-container">
                                     <img src="./images/blog/teach-trust.jpg" alt="TEACH trust">
