@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IP Bridge</title>
+    <title>IP Bridge | Alertex Wireless Critical Alert System</title>
     <meta name="description" content="Secure and simple to use, the Alertex IP bridge allows you to monitor and control your Alertex system from your computer.">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">

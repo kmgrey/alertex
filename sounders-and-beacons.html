@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sounders & Beacons</title>
+    <title>Sounders & Beacons | Alertex Wireless Critical Alert System</title>
     <meta name="description" content="A staple in any lockdown or fire alert system, the Alertex sounder & beacon produces a clear audible and visual alert when the system is activated.">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">

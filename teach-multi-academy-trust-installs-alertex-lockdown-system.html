@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEACH Multi-Academy Trust Installs ALERTEX Lockdown System</title>
+    <title>TEACH Multi-Academy Trust Installs ALERTEX Lockdown System | Alertex Wireless Critical Alert System</title>
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">
     <link rel="stylesheet" href="./stylesheets/blog-styles.css">

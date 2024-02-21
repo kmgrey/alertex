@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice Annunciators</title>
+    <title>Voice Annunciators | Alertex Wireless Critical Alert System</title>
     <meta name="description" content="Need a custom lockdown or fire alert message? The Alertex voice annunciator plays bespoke audio either on the fly or when the system is activated.">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">

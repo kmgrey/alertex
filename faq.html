@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>FAQ | Alertex Wireless Critical Alert System</title>
     <meta name="description" content="Have a question? Check out our most frequently asked questions for helpful tips and troubleshooting methods.">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">

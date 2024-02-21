@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireless Key Fob</title>
+    <title>Wireless Key Fob | Alertex Wireless Critical Alert System</title>
     <meta name="description" content="Give your staff peace of mind by adding Alertex wireless key fobs to your system, allowing the system to be activated within 100m of a main unit.">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">

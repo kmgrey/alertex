@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alertex Lockdown System Installed At Archway Learning Trust</title>
+    <title>Alertex Lockdown System Installed At Archway Learning Trust | Alertex Wireless Critical Alert System</title>
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">
     <link rel="stylesheet" href="./stylesheets/blog-styles.css">
