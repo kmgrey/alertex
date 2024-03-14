@@ -78,3 +78,8 @@ hr {
         min-width: 350px;
     }
 }
+@media (min-width: 1059px){
+    :is(.installer-logo) :is(.small-logo) {
+        margin-right: 100px;
+    }
+}

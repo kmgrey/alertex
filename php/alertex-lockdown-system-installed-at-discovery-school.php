@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alertex Lockdown System Installed At Discovery School | Alertex Wireless Critical Alert System</title>
+    <title>Alertex Lockdown System Installed At Discovery School</title>
     <meta name="description" content="">
     <meta name="robots" content="follow, index">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
