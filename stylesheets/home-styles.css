@@ -230,21 +230,64 @@
 \*                          */
 #why-lockdown {
     background: var(--blue-gradient);
-    color: var(--soft-white);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
 }
+:is(#why-lockdown) :is(h1, h2, h3, p){
+    color: var(--soft-white);
+}
 .feature-video {
     min-height: 400px;
     width: 100%;
+}
+.quote {
+    font-style: italic;
 }
 /*                              *\
     W H E R E  L O C K D O W N
 \*                              */
 #where-lockdown {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2vh;
+    padding: 3% 5%;
+    position: relative;
+    color: var(--dark-blue);
+}
+#where-lockdown::before {
+    content: "";
+    background-image: url(../images/bg-elements/network-vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.where-lockdown-card-container {
+    gap: 50px;
+    width: 80vw;
+}
+.where-lockdown-card {
+    width: 300px;
+    gap: 10px;
+}
+:is(.where-lockdown-card) :is(.image-container){
+    height: 200px;
+    border: 5px solid var(--light-blue);
+    border-radius: 5px;
+}
+:is(.where-lockdown-card) :is(.image-container) :is(img){
+    object-fit: cover;
 }
 /*                      *\
     B L O G  C A R D S
