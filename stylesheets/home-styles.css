@@ -223,8 +223,43 @@
     W H A T  L O C K D O W N
 \*                            */
 #what-lockdown {
-
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    position: relative;
+    padding: 25px;
+    background: var(--light-blue-gradient);
+    color: var(--dark-blue);
+    min-height: 30vh;
+    z-index: -1;
 }
+:is(#what-lockdown) :is(.outer-container){
+    row-gap: 25px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+/*                    *\
+  H O W  A L E R T E X
+\*                    */
+:is(#how-alertex) :is(.inner-container) :has(.alertex-diagram){
+    order: 2;
+}
+:is(#how-alertex) :is(.alertex-diagram){
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+}
+@media only screen and (max-width: 550px) {
+    :is(#how-alertex) :is(.outer-container){
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 1058px) {
+    :is(#how-alertex) :is(.outer-container){
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 1059px) {}
 /*                          *\
     W H Y  L O C K D O W N
 \*                          */
@@ -245,6 +280,17 @@
 .quote {
     font-style: italic;
 }
+@media only screen and (max-width: 550px) {
+    :is(#why-lockdown) :is(.outer-container){
+        flex-flow: column wrap;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 1058px) {
+    :is(#why-lockdown) :is(.outer-container){
+        flex-flow: column wrap;
+    }
+}
+@media only screen and (min-width: 1059px) {}
 /*                              *\
     W H E R E  L O C K D O W N
 \*                              */
@@ -264,7 +310,7 @@
     background-image: url(../images/bg-elements/network-vector.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: 25% 70%;
     position: absolute;
     top: 0;
     right: 0;
@@ -274,11 +320,17 @@
     opacity: 0.5;
 }
 .where-lockdown-card-container {
+    display: flex;
+    justify-content: center;
     gap: 50px;
     width: 80vw;
+    flex-wrap: wrap;
 }
 .where-lockdown-card {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 200px;
     gap: 10px;
 }
 :is(.where-lockdown-card) :is(.image-container){

@@ -1,19 +1,32 @@
-/*                                              *\
-    R E S P O N S I V E  C O N V E N T I O N S 
-\*                                              */
+/*               *\
+  C O N T E N T S
+\*               */
 /*
-    @media only screen and (max-width: 550px) {}
-    @media only screen and (min-width: 551px) and (max-width: 1058px) {}
-    @media only screen and (min-width: 1059px) {}
+    RESPONSIVE CONVENTIONS    
+    GLOBAL
+    FONTS
+    HERO CONTAINER
+    CONTAINERS
+    CARDS
+    BORDERS
+    BUTTONS
+    LISTS
+    LINKS
+    HEADER
+    NEWSLETTER
+    FOOTER
 */
-
-/*                        *\
-    S T Y L E  N O T E S
-\*                        */
+/*                                          *\
+  R E S P O N S I V E  C O N V E N T I O N S 
+\*                                          */
 /*
-    h1 is only to be used on top hero
+    @media only screen and (max-width: 550px) {} <--- MOBILE BREAKPOINT
+    @media only screen and (min-width: 551px) and (max-width: 1058px) {} <--- TABLET BREAKPOINT
+    @media only screen and (min-width: 1059px) {} <--- DESKTOP BREAKPOINT
 */
-
+/*           *\
+  G L O B A L
+\*           */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,24 +47,27 @@ body {
     --light-grey: rgb(207, 207, 207);
     --med-grey: rgb(126, 126, 126);
     --blue-gradient: linear-gradient(135deg, rgba(8,13,37,1) 0%, rgba(16,55,95,1) 100%);
-    --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 20%, rgba(26,110,170,0) 60%);
+    --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 30%, rgba(26,110,170,0.6) 60%, rgba(26,110,170,0) 100%);
 }
-/*                                  *\
-    F O N T S 
-\*                                  */
+/*         *\
+  F O N T S 
+\*         */
 p, h1, h2, h3, h4, li, a {
     color: var(--dark-blue);
 }
 .white-text {
     color: var(--soft-white);
 }
+.yellow-text {
+    color: var(--yellow);
+}
 @media only screen and (max-width: 550px) {
     .p-head {
         font-size: 1rem;
         font-weight: 600;
     }
-    p,
-    p span { font-size: 0.8rem; }
+    p { font-size: 0.8rem; }
+    span { font-size: inherit; }
     h1 {  
         text-transform: uppercase;
         font-weight: 800;
@@ -67,13 +83,13 @@ p, h1, h2, h3, h4, li, a {
         font-size: 1.2rem;
         font-weight: 600;
     }
-    p,
-    p span { 
+    p { 
         font-size: 1rem;
         &:not(:last-child) {
             margin-bottom: 1rem;
         } 
     }
+    span { font-size: inherit; }
     h1 {  
         text-transform: uppercase;
         font-weight: 800;
@@ -89,13 +105,13 @@ p, h1, h2, h3, h4, li, a {
         font-size: 1.5rem;
         font-weight: 600;
     }
-    p,
-    p span { 
+    p { 
         font-size: 1rem;
         &:not(:last-child) {
             margin-bottom: 1.25rem;
         } 
     }
+    span { font-size: inherit; }
     h1 {  
         text-transform: uppercase;
         font-weight: 800;
@@ -106,9 +122,9 @@ p, h1, h2, h3, h4, li, a {
     h2 { font-size: 2.5rem; }
     h3 { font-size: 1.3rem; }
 }
-/*                              *\
-    H E R O  C O N T A I N E R 
-\*                              */
+/*                          *\
+  H E R O  C O N T A I N E R 
+\*                          */
 .top-hero {
     display: flex;
     position: relative;
@@ -141,9 +157,9 @@ p, h1, h2, h3, h4, li, a {
 .top-hero .inner-container {
     justify-content: center;
 }
-/*                      *\
-    C O N T A I N E R S
-\*                      */
+/*                   *\
+  C O N T A I N E R S
+\*                   */
 .outer-container {
     display: flex;
     justify-content: center;
@@ -216,9 +232,9 @@ p, h1, h2, h3, h4, li, a {
         gap: 40px;
     }
 }
-/*              *\
-    C A R D S
-\*              */
+/*         *\
+  C A R D S
+\*         */
 .card {
     display: flex;
     flex-direction: column;
@@ -256,16 +272,16 @@ p, h1, h2, h3, h4, li, a {
     height: 25px;
     width: auto;
 }
-/*                  *\
-    B O R D E R S
-\*                  */
+/*             *\
+  B O R D E R S
+\*             */
 .blue-border {
     border: 5px solid var(--light-blue);
     border-radius: 10px;
 }
-/*                  *\
-    B U T T O N S
-\*                  */
+/*             *\
+  B U T T O N S
+\*             */
 .blue-button {
     display: flex;
     justify-content: center;
@@ -317,18 +333,18 @@ p, h1, h2, h3, h4, li, a {
         border-radius: 10px;
     }
 }
-/*             *\
-    L I S T S
-\*             */
+/*         *\
+  L I S T S
+\*         */
 .list-indent {
     padding-left: 50px;
 }
 .list-indent li {
     padding-left: 10px;
 }
-/*              *\
-    L I N K S
-\*              */
+/*         *\
+  L I N K S
+\*         */
 a {
     text-decoration: none;
 }
@@ -336,9 +352,9 @@ a {
     color: var(--light-blue);
     font-weight: 700;
 }
-/*              *\
-    H E A D E R
-\*              */
+/*           *\
+  H E A D E R
+\*           */
 nav {
     background: var(--blue-gradient);
     display: flex;
@@ -500,9 +516,9 @@ nav {
         height: 8vh;
     }
 }
-/*                      *\
-    N E W S L E T T E R
-\*                      */
+/*                   *\
+  N E W S L E T T E R
+\*                   */
 #newsletter {
     display: flex;
     flex-direction: column;
@@ -595,9 +611,9 @@ input::placeholder {
         font-size: 1rem;
     }
 }
-/*              *\
-    F O O T E R
-\*              */
+/*           *\
+  F O O T E R
+\*           */
 footer {
     width: 100%;
 }
