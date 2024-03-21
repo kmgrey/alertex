@@ -47,7 +47,7 @@ body {
     --light-grey: rgb(207, 207, 207);
     --med-grey: rgb(126, 126, 126);
     --blue-gradient: linear-gradient(135deg, rgba(8,13,37,1) 0%, rgba(16,55,95,1) 100%);
-    --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 30%, rgba(26,110,170,0.6) 60%, rgba(26,110,170,0) 100%);
+    --light-blue-gradient: linear-gradient(180deg, rgba(16,55,95,1) 0%, rgba(26,110,170,1) 10%, rgba(26,110,170,0) 50%);
 }
 /*         *\
   F O N T S 
@@ -166,6 +166,7 @@ p, h1, h2, h3, h4, li, a {
     margin: auto;
     width: 100%;
     max-width: 1600px;
+    padding: 25px;
 }
 .container {
     display: flex;

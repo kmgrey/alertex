@@ -187,7 +187,7 @@
                         <p>
                             The Alertex wired call-point contains no circuitry and is designed to be wired directly into an Alertex sounder & beacon or voice annunciator unit, 
                             allowing it to be positioned according to the user (for example, a person using a wheelchair would require the call-point to be placed lower so 
-                            that they could reach it comfortably. The wired call-point can then activate all units within range of the unit it is wired into.
+                            that they could reach it comfortably). The wired call-point can then activate all units within range of the unit it is wired into.
                         </p>
                     </div>
                     <ul class="key-features">

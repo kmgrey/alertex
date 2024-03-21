@@ -219,6 +219,13 @@
         font-size: 1.1rem;
     }
 }
+/*                               *\
+  W H A T  W H Y  L O C K D O W N
+\*                               */
+#what-why-bg {
+    background: var(--light-blue-gradient);
+    z-index: -1;
+}
 /*                            *\
     W H A T  L O C K D O W N
 \*                            */
@@ -227,11 +234,8 @@
     flex-direction: column;    
     text-align: center;
     position: relative;
-    padding: 25px;
-    background: var(--light-blue-gradient);
     color: var(--dark-blue);
-    min-height: 30vh;
-    z-index: -1;
+    z-index: 0;
 }
 :is(#what-lockdown) :is(.outer-container){
     row-gap: 25px;
@@ -259,7 +263,11 @@
         flex-direction: column;
     }
 }
-@media only screen and (min-width: 1059px) {}
+@media only screen and (min-width: 1059px) {
+    #how-alertex {
+        margin-top: 25px;
+    }
+}
 /*                          *\
     W H Y  L O C K D O W N
 \*                          */
