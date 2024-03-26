@@ -109,4 +109,6 @@
             </div>
         </div>
     </div>
+    <!-- C O O K I E  B A R -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=minimal&tracking=1&always=1&showNoConsent=1"></script>
 </footer> 
