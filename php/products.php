@@ -102,6 +102,36 @@
                         </div>
                     </div>
                 </a>
+                <!-- F I R E  A N D  F I R S T  A I D -->
+                <a href="./fire-first-aid.php">
+                    <div class="card">
+                        <div class="image-container blue-border">
+                            <img src="./images/product-photos/fire-and-first-aid.png" alt="Alertex fire and first aid unit">
+                        </div>
+                        <div class="card-heading">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                            <h3>Fire & First Aid</h3>
+                        </div>
+                    </div>
+                </a>
+                <!-- I P  B R I D G E -->
+                <a href="./ip-bridge.php">
+                    <div class="card">
+                        <div class="image-container blue-border">
+                            <img src="./images/product-photos/nxipbridge.png" alt="Alertex IP bridge">
+                        </div>
+                        <div class="card-heading">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                            <h3>IP Bridge</h3>
+                        </div>
+                    </div>
+                </a>
                 <!-- C A L L  P O I N T S -->
                 <a href="./call-points.php">
                     <div class="card">
@@ -114,21 +144,6 @@
                                 <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
                             <h3>Call-Points</h3>
-                        </div>
-                    </div>
-                </a>
-                <!-- H E A T  A N D  S M O K E -->
-                <a href="./heat-and-smoke.php">
-                    <div class="card">
-                        <div class="image-container blue-border">
-                            <img src="./images/product-photos/heat-and-smoke.png" alt="Alertex wireless heat and smoke detectors">
-                        </div>
-                        <div class="card-heading">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-                            </svg>
-                            <h3>Heat & Smoke Detectors</h3>
                         </div>
                     </div>
                 </a>
@@ -147,18 +162,18 @@
                         </div>
                     </div>
                 </a>
-                <!-- I P  B R I D G E -->
-                <a href="./ip-bridge.php">
+                <!-- H E A T  A N D  S M O K E -->
+                <a href="./heat-and-smoke.php">
                     <div class="card">
                         <div class="image-container blue-border">
-                            <img src="./images/product-photos/nxipbridge.png" alt="Alertex IP bridge">
+                            <img src="./images/product-photos/heat-and-smoke.png" alt="Alertex wireless heat and smoke detectors">
                         </div>
                         <div class="card-heading">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
-                            <h3>IP Bridge</h3>
+                            <h3>Heat & Smoke Detectors</h3>
                         </div>
                     </div>
                 </a>
