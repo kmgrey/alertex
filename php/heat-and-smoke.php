@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heat & Smoke Detectors | Alertex Wireless Critical Alert System</title>
-    <meta name="description" content="">
+    <meta name="description" content="Wireless heat and smoke detectors activate the Alertex system automatically on detection for an additional layer of fire safety.">
     <meta name="robots" content="follow, index">
     <link rel="icon" type="image/x-icon" href="./images/logos/alertex-favicon-1.ico">
     <link rel="stylesheet" href="./stylesheets/styles.css">
